@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: rgb(212, 156, 83);
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 20px;
+
+            min-width: 320px;
+            max-width: 800px;
+            margin: auto;
+            margin: 15px;
+        }
+        
+        img{
+            width: 100%;
+        }
+
+        p{
+            text-align: justify;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testanto responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad facere, autem obcaecati optio itaque atque debitis blanditiis, eligendi rem error adipisci impedit temporibus quia quam iusto, natus aliquid inventore ipsa. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure adipisci quas velit repellendus sequi in corporis voluptates alias totam ipsum at modi molestiae perferendis quo aperiam, accusantium, quasi itaque? Itaque.</p>
+        
+        <picture>
+            <!-- max width: quando a tela do navegador for mennor  -->
+            <source media="(max-width: 800px )" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="irina">
+        </picture>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad facere, autem obcaecati optio itaque atque debitis blanditiis, eligendi rem error adipisci impedit temporibus quia quam iusto, natus aliquid inventore ipsa. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure adipisci quas velit repellendus sequi in corporis voluptates alias totam ipsum at modi molestiae perferendis quo aperiam, accusantium, quasi itaque? Itaque.</p>
+
+    </main>
+</body>
+</html>

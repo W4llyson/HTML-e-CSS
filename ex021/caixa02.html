@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(58, 123, 167);
+            margin: 0%;
+        }
+        header{
+             background-color: aliceblue;
+             margin: 10px;
+             margin-top: 55px;
+             padding-top: 5px;
+             padding-bottom: 5px;
+             
+        }
+        main{
+            background-color: antiquewhite;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 20px 5px;
+            box-shadow: 1px 2px 4px black;
+
+        }
+
+        nav{
+            background-color: rgb(165, 122, 206);
+            padding: 9px;
+            margin-left: 5px;
+            margin-bottom: 5px;
+            margin-top: -3px;
+            margin-right: 319px;
+            box-shadow:  2px 2px 4px rgba(0, 0, 0, 0.349);
+            
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: black;
+            margin-top: 55px;
+            
+        }
+
+        nav a:hover{
+            text-decoration: underline;
+            
+            
+        }
+
+        article{
+            background-color: rgb(39, 136, 79);
+            padding: 5px;
+            box-shadow: 1px 2px 4px black;
+        }
+
+        article > aside{
+            background-color: rgb(52, 218, 46);
+        }
+
+        footer{
+            background-color: black;
+            color: rgb(255, 255, 250);
+            text-align: center;
+            padding: 4px;
+            margin: 0px ;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cabeçalho</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <aside>
+
+                </aside>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Copa do mundo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quod vero error, perferendis consequatur iusto aperiam harum. Earum velit asperiores a error tempora dolorem, magni, modi, totam voluptatem qui illo?</p>
+                <aside>
+                    <p>wallyson ivo foi um grande home </p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Curso em video</p>
+    </footer>
+</body>
+</html>

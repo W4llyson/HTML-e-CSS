@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(165, 163, 163);
+}
+
+div{
+    background-color: rgba(42, 42, 42, 0.538);
+    border-radius: 10px;
+}
+
+img{
+    width: 280px;
+    height: 400px;
+    margin-bottom: -5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: dotted 4px red;
+}
+
+#p1{
+    width: 85px;
+    padding-left: 9px;
+    margin: 1px 1px 1px 1px;
+    background-color: blueviolet;
+}

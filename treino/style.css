@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* 
+ - baixar/escolher fonte padrão do título
+ - centralizar título
+ - texto justi
+ - cor de fundo
+ - cor do título
+*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, rgb(214, 46, 46), rgb(44, 44, 221));
+}
+
+.colorh2{
+    color: rgb(241, 241, 241);
+}
+
+p{
+    text-align: justify;
+    text-indent: 1em;
+}

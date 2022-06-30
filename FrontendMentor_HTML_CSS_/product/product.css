@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+:root{
+    --verde: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Verydark: hsl(212, 21%, 14%);
+    --Darkgrayish: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+
+    --fonttitulo: 'Montserrat', verdana,;
+    --fonteparagrafo: 'Fraunces', verdana;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    height: 450px;
+    font-family: var(--fonteparagrafo);
+}
+
+article{
+    margin: 33px 24px 1px 350px;
+}
+
+img{
+    width: 298px;
+    height: 450px;
+    margin: 0px 31px -434px -352px;
+}
+
+#txtperfume{
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+p{
+    margin-top: 35px;
+}
+
+#preco{
+    padding-top: 14px;
+    color: var(--verde);
+}
+
+#precoriscado{
+    margin: -20px 87px 1px 96px;
+}
