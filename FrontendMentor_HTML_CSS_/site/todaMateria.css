@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root{
+    --cor1: #264156;
+    --cor2: #346892;
+
+    --fonteP: Open Sans, verdana;
+}
+
+body{
+    font-family: var(--fonteP);
+}
+
+header{
+    background-color: var(--cor1);
+
+}
+
+header > h1{
+    color: white;
+    padding: 20px 20px 20px 50px;
+}
+
+#icon{
+    padding: 0px 0px 0px 0px;
+}
+
+nav{
+    background-color: var(--cor2);
+    padding-left: 50px;
+    padding-top: 8px;
+    padding-bottom: 13px;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 14px;   
+}
+
+nav > a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+#p1{
+    background-image: url(imagem/785857e15ddbe19.jpg);
+    height: 500px;
+    width: 100%; 
+}
+
