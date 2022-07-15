@@ -1,48 +1,48 @@
 @charset "UTF-8";
 
 *{
-    padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
+    padding: 0px;
 }
 
 body{
-    background-color: rgb(182, 228, 214);
-    
+    background-color: rgb(162, 180, 180);
 }
 
 header{
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(134, 163, 54);
-    background-image: url(imagem/pattern002.png);
-    padding-bottom: 10px;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
-}
-
-#logo{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding-left: 5px;
-    margin-top: 7px;
+    background-color: rgb(146, 124, 167);
+    padding-top: 15px;
+   
 }
 
 nav{
-    margin-top: 7px;
+    text-align: right;
+    padding-top: 15px;
 }
 
-nav a{
+a{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px;
     text-decoration: none;
-    margin-left: 5px;
-    color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+    margin-bottom: 5px;
+    
 }
 
-nav a:hover{
-    text-decoration: underline;
-    color: rgb(40, 122, 67);
-}
-
-#menu li{
+div{
     display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    margin-left: 15px;
+    
+}
 
+a::before{
+    content: "";
+    background-color: rgb(190, 39, 39);
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    
 }
