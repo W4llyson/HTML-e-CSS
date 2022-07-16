@@ -21,7 +21,7 @@ nav{
 }
 
 a{
-    display: inline-flex;
+    display: inline-flex;/*pesquisar novamente*/
     align-items: center;
     margin-right: 30px;
     text-decoration: none;
@@ -44,5 +44,10 @@ a::before{
     width: 10px;
     height: 10px;
     margin-right: 5px;
-    
+}
+
+a:hover{
+    text-decoration: underline;
+    color: aquamarine;
+    background-color: black;
 }
